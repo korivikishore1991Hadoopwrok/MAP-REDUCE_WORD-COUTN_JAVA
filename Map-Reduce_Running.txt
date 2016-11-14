@@ -1,0 +1,8 @@
+Running:-(can also give largedeck.txt.gz[Zipped file] as an inputfile argument)
+hadoop jar your_jar_name.jar drivers.RowCount Inputfile outputfile
+
+hadoop jar cards.jar drivers.RowCount deckofcards.txt outputfile
+
+=====================================================================================================================================================================
+hadoop commands:-
+hadoop fs -copyFromLocal outputfile/ ~/
